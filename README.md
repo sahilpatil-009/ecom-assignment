@@ -1,12 +1,28 @@
-# React + Vite
+# E-Commerce  Store Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Live Demo - https://ecom-assignment-puce.vercel.app/
 
-Currently, two official plugins are available:
+## How to run the project
+1. First you need to clone the project with and go to directory
+	```
+	> git clone https://github.com/ocakhasan/e-commerce-frontend.git
+	> cd e-commerce-frontend
+	```
+3. Then you need to install the dependencies with
+	```
+	> npm install
+	```
+4. Then you need to start the server with 
+	```
+	> npm run dev
+	```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Then it will run the project at localhost
 
-## Expanding the ESLint configuration
+# Screenshots
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![](screenshots/main.png)
+![](screenshots/category.png)
+![](screenshots/search.png)
+![](screenshots/deatils.png)
+![](screenshots/cart.png)
