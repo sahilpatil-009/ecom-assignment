@@ -5,8 +5,8 @@
 ## How to run the project
 1. First you need to clone the project with and go to directory
 	```
-	> git clone https://github.com/ocakhasan/e-commerce-frontend.git
-	> cd e-commerce-frontend
+	> git clone https://github.com/sahilpatil-009/ecom-assignment.git
+	> cd ecom-assignment
 	```
 3. Then you need to install the dependencies with
 	```
