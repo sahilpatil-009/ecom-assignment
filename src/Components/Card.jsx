@@ -44,11 +44,11 @@ const Card = ({ product }) => {
       <p className="text-gray-500 text-lg font-semibold">${product.price}</p>
       <p className="text-gray-700 mt-2 text-sm">{product.description}</p>
       <button
-        className="mt-4 bg-black text-white w-full py-3 text-lg rounded hover:bg-gray-800 transition"
+        className="mt-4 bg-gray-700 text-white w-full py-3 text-lg rounded hover:bg-gray-800 transition"
         onClick={()=>handleAddtoCart(product)}
       >
         Add to Cart
-      </button>
+      </button><table></table>
     </div>
     {showDetails && <ProductDetail setShowDetails={setShowDetails} product={product} />}
     </>
